@@ -2,19 +2,6 @@
 
 Mya Thomas - Corpus: `city_guides`
 
-> **This file is your submission.** Fill it in as you go — most sections get
-> written during the milestone that produces them, not at the end.
->
-> How the starter works, and every command you'll need, is in `RUNNING.md`.
-> Leave that file alone.
->
-> **Paste everything as text.** No screenshots, no video. A typed table gets
-> full credit; a picture of the same table gets none.
->
-> Delete these instruction blocks as you replace them. The `<!-- -->` comments
-> are notes to you and don't show up when the page renders — you can leave them
-> or remove them.
-
 ---
 
 # Unit 1
@@ -26,6 +13,8 @@ Mya Thomas - Corpus: `city_guides`
      this repo.
 
      Milestone 5. -->
+
+For this project `city_guides` has been selected as my corpus. This corpus searches Long travel guides divided into labelled sections including nine towns and five guides that cut across them. Information is organised by heading and spread across paragraphs, in a total of 14 documents. Some of the included guides are about accessibility, transportation, seasons and eating across the region.
 
 ## Chunking Strategy
 

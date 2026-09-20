@@ -1,4 +1,5 @@
 # Acceptance criteria — The Unofficial Guide
+Corpus: `city_guides`
 
 Five criteria that say what "working" means for this system, written in unit 1
 **before** any results existed.
@@ -12,9 +13,6 @@ Under each one, write a sentence or two on **why that target** and not a
 stricter or looser one. A reason that says something about your corpus or your
 pipeline earns credit; *"80% seemed reasonable"* does not.
 
-> Missing your own targets next unit costs you nothing. Setting a target so
-> easy you can't miss it does.
-
 ---
 
 ## 1. Retrieved chunks contain the answer
@@ -23,8 +21,7 @@ For at least 4 of my 5 test questions, the retrieved chunks include one that
 contains the answer.
 
 **Why this target:**
-<!-- e.g. "One of my questions is about a topic only two documents mention, so
-     I expect that one to be hard." -->
+The questions asked cover 3 specific city guide topics including transportation, seasons, and eating. Several of the questions include keywords that can be found in the guides, but the last question asked is very vague and can be opinionate so a correct awnser may be hard to find.
 
 ---
 

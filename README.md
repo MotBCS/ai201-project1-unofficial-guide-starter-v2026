@@ -131,10 +131,10 @@ The journey from Brightwater to the regional hub takes 50 minutes(*guide_brightw
 Sources retrieved: guide_brightwater.md, guide_marchwood.md, guide_regional_transport.md, guide_walking.md
 ```
 
-**My relevance cutoff:**
+**My relevance cutoff: 0.65**
 
 
-## IN SCOPE QUESTIONS:
+# IN SCOPE QUESTIONS:
 | Question                         | In corpus?        | Best distance |
 -------------------------------------------------------------------------------
 | Is the Halden Bay seafood fresh? | YES               |0.443          |

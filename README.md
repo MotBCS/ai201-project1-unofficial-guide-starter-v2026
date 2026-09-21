@@ -136,39 +136,30 @@ Sources retrieved: guide_brightwater.md, guide_marchwood.md, guide_regional_tran
 
 # IN SCOPE QUESTIONS:
 | Question                         | In corpus?        | Best distance |
--------------------------------------------------------------------------------
+|---|---|---|
 | Is the Halden Bay seafood fresh? | YES               |0.443          |
--------------------------------------------------------------------------------
 | At what time does the 
 Kestrelford's pub open and close?  | YES               |0.402          |
--------------------------------------------------------------------------------
 | How long in minutes does it take 
 to get from Brightwater to the 
 regional hub?                      | YES               |0.290          |
--------------------------------------------------------------------------------
 | When is the cheapest time to book 
 a ticket to the regional hub from 
 Brightwater?                       | YES               |0.381          |
--------------------------------------------------------------------------------
 | When is the best time to visit?  | YES               |0.503          |
--------------------------------------------------------------------------------
 
 ## OUT OF SCOPE QUESTIONS:
 | Question                         | In corpus?        | Best distance |
--------------------------------------------------------------------------------
+|---|---|---|
 | What is the capital of Mongolia? | NO                |0.887          |
--------------------------------------------------------------------------------
 | How do I change the oil in a
 diesel engine?                     | NO                |0.897          |
--------------------------------------------------------------------------------
 | Who won the 1994 World Cup?      | NO                |0.903          |
--------------------------------------------------------------------------------
 | What is the recommended dosage of 
 ibuprofen for a headache?          | NO                |0.829          |
--------------------------------------------------------------------------------
 | How do I write a for loop in 
 Rust?                              | NO                |0.853          |
--------------------------------------------------------------------------------
+
 
 The gap between the in and out of scope questions is: 0.502 to 0.829
 
@@ -178,7 +169,6 @@ My relevance cutoff would be 0.65 because my five in scope questions had a dista
 ## How I Used AI
 
 **1.**
-
 I asked ChatGPT to explain what chunking was in very simple terms, I was confused before but after the explaination, I understood what was being asked in the assignment. I mainly used the AI to help me better understand and visual the concept of chunking and what is means in these terms. Also any errors that I needed help debugging I asked ChatGPT to help troubleshoot and explain the error so I could fix it by installing, unstalling or changing a line of code in the config.py file.
 
 ChatGPT returned: 

@@ -140,8 +140,7 @@ Sources retrieved: guide_brightwater.md, guide_marchwood.md, guide_regional_tran
 | Is the Halden Bay seafood fresh? | YES               |0.443          |
 | At what time does the Kestrelford's pub open and close?  | YES               |0.402          |
 | How long in minutes does it take to get from Brightwater to the regional hub?                      | YES               |0.290          |
-| When is the cheapest time to book 
-a ticket to the regional hub from Brightwater?                       | YES               |0.381          |
+| When is the cheapest time to book a ticket to the regional hub from Brightwater?                       | YES               |0.381          |
 | When is the best time to visit?  | YES               |0.503          |
 
 ## OUT OF SCOPE QUESTIONS:

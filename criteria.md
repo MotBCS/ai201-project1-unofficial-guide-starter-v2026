@@ -21,6 +21,7 @@ For at least 4 of my 5 test questions, the retrieved chunks include one that
 contains the answer.
 
 **Why this target:**
+
 The five question I have written in `questions.py` cover different `city_guide` topics, including food, business hours, transportation, ticket prices, and seasons. Requiring 4 out of 5 allows one retrieval failure while still requiring the system to successfully retrieve infromation from most of the topics in the `city_guide` corpus.
 ---
 
@@ -29,6 +30,7 @@ The five question I have written in `questions.py` cover different `city_guide` 
 Every answer the system produces names at least one source document.
 
 **Why this target:**
+
 The system answers the given questions using information retrieved from the `city_guides` corpus, so each answer has some sort of connection to each of the documents provided to the system.
 
 ---
@@ -40,6 +42,7 @@ stops it and the system returns "I don't have enough information about that" —
 in at least 4 of 5 tries.
 
 **Why this target:**
+
 The `city_quide` corpus only contains relevant information about the topics coverd by the city guides, so questins that are asked outside those topics should not be answered using unrelated retrieved chuncks. I chose 4 out of 5 because the relevance gate should reject the out of scope questions.
 
 Sources retrieved: guide_brightwater.md, guide_eating.md, guide_elder_ness.md, guide_givens_mill.md, guide_halden_bay.md
@@ -83,6 +86,7 @@ Out-of-scope questions (the gate should refuse these):
 For at least 4 of 5 sampled chunks that contain answers to my test questions, the chuck contains the complete information needed to anwser its corresponding question without requiring information from unrelated chunks.
 
 **Why this target:**
+
 My test questions include facts that may require multiple pieces of information, such as both an opening and closing time or a comparision between two booking times. These chunks need to keep related information together so that a single chuck can provide enough context to answer the given question.
 
 
@@ -93,6 +97,7 @@ My test questions include facts that may require multiple pieces of information,
 For at least 4 of 5 test questions that where in scope, the source document named in the final answwer contained the information that supports the answer given.
 
 **Why this target:**
+
 The system names a source that supports the answer it returned. I chose 4 out of 5 because one incorrect source can be allowed as long as the majority of the given test questions have correct sources.
 
 ---

@@ -23,6 +23,7 @@ contains the answer.
 **Why this target:**
 
 The five question I have written in `questions.py` cover different `city_guide` topics, including food, business hours, transportation, ticket prices, and seasons. Requiring 4 out of 5 allows one retrieval failure while still requiring the system to successfully retrieve infromation from most of the topics in the `city_guide` corpus.
+
 ---
 
 ## 2. Every answer names a source
@@ -79,6 +80,7 @@ Out-of-scope questions (the gate should refuse these):
   refused  (best distance 0.829)  What is the recommended dosage of ibuprofen for a headache?
   refused  (best distance 0.853)  How do I write a for loop in Rust?
   -> gate refused 5 of 5
+  
 ---
 
 ## 4. Something about your chunks

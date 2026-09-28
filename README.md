@@ -683,7 +683,7 @@ Every answer the system produces names at least one source document.
 
 I would write:
 
-For every in-scope question that receives an answer, the final answer names at least one source document.
+For every in scope question that receives an answer, the final answer names at least one source document.
 
 This makes it clear that a correctly refused out-of-scope question does not need a source.
 
@@ -693,6 +693,6 @@ For at least 4 of my 5 test questions, at least one of the top-5 retrieved chunk
 
 This makes the criterion easier to check directly against the retrieved chunks.
 
-I would keep the original 4-of-5 targets rather than lowering them because the purpose of Unit 2 is to diagnose the failures and attempt an improvement rather than change the target after seeing the results.
+I would keep the original 4 of 5 targets rather than lowering them because the purpose of Unit 2 is to diagnose the failures and attempt an improvement rather than change the target after seeing the results.
 
-The biggest lesson from the Before and After runs is that the scorer was not the main problem. The same questions continued to fail after the scorer change, while the relevance gate continued to reject the in-scope booking question. My next improvement would therefore investigate the retrieval results, relevance cutoff, and chunk contents before making another change.
+The biggest lesson from the Before and After runs is that the scorer was not the main problem. The same questions continued to fail after the scorer change, while the relevance gate continued to reject the in scope booking question. My next improvement would therefore investigate the retrieval results, relevance cutoff, and chunk contents before making another change.

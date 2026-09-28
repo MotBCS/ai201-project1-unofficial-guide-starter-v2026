@@ -1,6 +1,7 @@
 # Regular expression module (used to find and replace patterns)
 import re
 
+
 def normalize(text):
     """Make text easier to compare."""
     return text.lower().strip()
@@ -55,7 +56,11 @@ def score_time(answer, expected):
 
     def normalize_time(text):
         # Convert 12:00 pm -> 12 pm
-        text = re.sub(r"(\d{1,2}):00\s*(am|pm)", r"\1 \2", text)
+        text = re.sub(
+            r"(\d{1,2}):00\s*(am|pm)",
+            r"\1 \2",
+            text
+        )
 
         # Normalize spacing around AM/PM
         text = re.sub(r"\s+", " ", text)
@@ -93,3 +98,30 @@ def calculate_score(results):
     percentage = (passed / total) * 100 if total else 0
 
     return passed, total, percentage
+
+
+def judge(question, expects, answer, results):
+    """
+    Decide whether an AI answer is correct.
+
+    Returns:
+        True if the answer is correct
+        False if the answer is incorrect
+    """
+
+    question = normalize(question)
+
+    # Questions asking about a journey duration.
+    if "how many minutes" in question or "how long" in question:
+        return score_answer(answer, expects, "duration")
+
+    # Questions asking about opening/closing times.
+    if (
+        "opening" in question
+        or "closing" in question
+        or "hours" in question
+    ):
+        return score_answer(answer, expects, "time")
+
+    # All other questions use contains matching.
+    return score_answer(answer, expects, "contains")

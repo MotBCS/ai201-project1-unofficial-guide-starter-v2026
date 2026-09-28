@@ -619,7 +619,7 @@ Brightwater: pass, pass, pass
 Booking: fail, fail, fail
 Months: fail, fail, fail
 
-The relevance gate also remained the same, refusing all 5 out-of-corpus questions.
+The relevance gate also remained the same, refusing all 5 out of corpus questions.
 
 This shows that changing the scorer did not fix the main problems in the retrieval pipeline.
 
